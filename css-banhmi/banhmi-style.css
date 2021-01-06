@@ -1,0 +1,55 @@
+
+/***** TAG selector ***/
+
+body {
+  background-color: #ffe0d8;
+}
+
+h1 {
+  color: red;
+  font-size: 50px;
+}
+h1:hover {
+  color: orange;
+}
+
+h3 {
+  color: #583d72;
+
+}
+h3:hover{
+  text-decoration-line: underline;
+  color: blue;
+}
+
+li {
+  color: black;
+}
+
+blockquote {
+  margin-left: 5px;
+}
+
+img:hover {
+  background-color: orange;
+
+}
+
+/***** CLASS selector - group ***/
+
+.baguette {
+  background-color: yellow;
+}
+.meat {
+  background-color: green;
+}
+
+.circular {
+  border-radius: 15%;
+}
+
+/**** ID selector - only one selector for each id ****/
+
+#banhmi {
+  border-radius: 50%;
+}
